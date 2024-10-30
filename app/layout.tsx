@@ -26,7 +26,7 @@ export default function RootLayout({
     >
       <html lang="en">
         <body
-          className={`${inter.className}`}
+          className={`${inter.className} dotted-background`}
         >
           <ThemeProvider
             attribute="class"
