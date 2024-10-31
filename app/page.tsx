@@ -8,6 +8,12 @@ import Link from "next/link";
 
 import faqs from '@/data/faqs.json'
 
+interface faqs {
+  question: string,
+  answer: string
+}
+
+
 const features = [
   {
     title: "Intuitive Kanban Boards",

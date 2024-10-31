@@ -5,9 +5,13 @@ import React from 'react'
 import { Button } from './ui/button'
 import { PenBox } from "lucide-react";
 import UserMenu from './user-menu'
+import { CheckUser } from '@/lib/checkUser'
 
 
-const Header = () => {
+const Header = async () => {
+
+    CheckUser();
+
     return (
         <header className='container mx-auto'>
 
